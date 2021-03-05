@@ -1,0 +1,35 @@
+.loginPage {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.loginPage__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    width: 30%;
+    height: 50%;
+    align-items: center;
+    padding: 20px;
+}
+.loginPage__input {
+    width: 60%;
+}
+.loginPage__input > p {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.loginPage__input > .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginPage__input > button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.loginPage__container > h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}

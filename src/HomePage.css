@@ -1,0 +1,36 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.homePage__header {
+    display: flex;
+}
+.homePage__body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    top: -50px;
+}
+.homePage__header > img {
+    flex: 1;
+    max-height: 20vh;
+}
+.homePage__body > h2 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.homePage__body > p{
+    color: gray;
+    font-size: 15px;
+}
+.homePage__body > button {
+    margin-top: 40px;
+    font-size: 16px;
+    background-color: rgb(170, 93, 241);
+    padding: 15px 60px;
+}

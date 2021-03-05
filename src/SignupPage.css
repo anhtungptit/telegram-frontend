@@ -1,0 +1,35 @@
+.signupPage {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.signupPage__container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    width: 30%;
+    height: 60%;
+    align-items: center;
+    padding: 20px;
+}
+.signupPage__input {
+    width: 60%;
+}
+.signupPage__input > p {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.signupPage__input > .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signupPage__input > button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.signupPage__container > h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}

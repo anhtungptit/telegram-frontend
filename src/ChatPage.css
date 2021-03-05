@@ -1,0 +1,129 @@
+.chatPage {
+    display: flex;
+    height: 100%;
+}
+.chatPage__left {
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e6d9d9;
+    height: 100%;
+}
+.chatPage__leftHeader {
+    display: flex;
+    padding: 10px;
+}
+.chatPage__leftHeader > .MuiSvgIcon-root {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.chatPage__leftHeader > input {
+    flex: 1;
+    background-color: #ece9e9;
+    border: none;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+}
+.chatPage__leftBody {
+    flex: 1;
+}
+.chatPage__row {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.chatPage__row:hover {
+    background-color: #f1f1f1;
+}
+.chatPage__row > .MuiAvatar-root {
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+}
+.chatPage__rowRight > h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.chatPage__rowRight > p {
+    color: gray;
+    font-size: small;
+}
+.chatPage__right {
+    flex: 0.65;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.chatPage__rightHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.chatPage__description > h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.chatPage__description > p {
+    color: gray;
+    font-size: small;
+}
+.chatPage__extend > .MuiSvgIcon-root {
+    color: gray;
+    margin-left: 20px;
+}
+.chatPage__rightBody {
+    flex: 1;
+    background-image: url("https://wallpapercave.com/wp/wp2039820.jpg");
+    display: flex;
+    flex-direction: column;
+}
+.chatPage__message {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.chatPage__messageDetails {
+    width: fit-content;
+}
+.chatPage__message > .MuiAvatar-root {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.chatPage__messageDetails > h3 {
+    font-size: 11px;
+    font-weight: 500;
+    left: -5px;
+}
+.chatPage__messageDetails > p {
+    background-color: #c4b4b4;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 14px;  
+}
+.chatPage__bodyUpper {
+    flex: 1;
+}
+.chatPage__footer > form {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+.chatPage__footer > form > input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.chatPage__footer > form > button {
+    display: none;
+}
+.chatPage__footer >form > .MuiSvgIcon-root {
+     color: gray;
+     cursor: pointer;
+     margin-left: 10px;
+}
